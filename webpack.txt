@@ -1,0 +1,20 @@
+
+package.json файл сгенерирован для того что бы вести список 
+зависимостей
+
+npm init
+
+  "homepage": "https://github.com/GeykoSergey/excel-js#readme",
+  "private": true
+
+  устанавливаем (добавляем) флаг "private": true для того чтобы 
+  данный репозиторий не был запаблишен, и никто не увидит этот код
+  и если в файле будет entry point - то она будет игнорироваться
+
+https://webpack.js.org/
+
+установка webpack npm install 
+webpack webpack-cli --save-dev
+
+  "devDependencies": {
+}  зависимости в режиме разработки
