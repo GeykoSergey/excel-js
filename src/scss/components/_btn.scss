@@ -1,0 +1,21 @@
+.button {
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  color: #000;
+
+  & i {
+    font-size: 24px;
+  }
+
+  &:active, &.active {
+    color: #0def28;
+  }
+
+  &:hover {
+    background-color: #f8f3f3;
+    cursor: pointer;
+  }
+}
